@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>css level 2</title>
+          <link rel="stylesheet" href="style.css">
+</head>
+<body>
+         
+       <div id="navbar">
+        <a href="https://us.amazon.com" target="_main" id="logo">amazon.com</a>
+        <a href="">Account</a>
+        <a href="">my Cart</a>
+        <a href="">Contact us</a>
+                <input placeholder="Search amazon.in">
+                <button>Search</button>
+
+
+       </div>
+</body>
+</html>
+
+****CSS***
+*{
+          padding: 0;
+          margin: 0;
+          color: white;
+}
+#navbar{
+          height: 60px;
+          background-color: black;
+}
+button{
+          background-color: #f0880f;
+}
+#logo{
+          color: #f0880f;
+          font-size: 25px;
+}
+/* we want all element to have spaces in right */
+a{
+          margin: 25px;
+          text-decoration: wavy;
+}
