@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>css level 2</title>
+          <link rel="stylesheet" href="style.css">
+</head>
+<body>
+       <header>
+              <div id="navbar">
+                     <a href="https://us.amazon.com" target="_main" id="logo">amazon.com</a>
+                     <a href="">Account</a>
+                     <a href="">my Cart</a>
+                     <a href="">Contact us</a>
+                             <input placeholder="Search amazon.in">
+                             <button>Search</button>
+             
+             
+                    </div>
+       </header>
+       <div id="content">
+              <div style="background-color: aqua;" class="contentarea"> Buy your favorite netlfix</div>
+              <div style="background-color: burlywood;" class="contentarea">
+              buy your intentional biscuite </div>
+              <div style="background-color: aquamarine;" class="contentarea"> hey this is the devin AI</div>
+       </div>
+       <footer>Made by &#10084; &#65010; <br> &#169; 996-2024, Amazon.com, Inc. or its affiliates</footer>
+       
+</body>
+</html>
+
+
+***CSS***
+
+.contentarea{
+          height: 100px;
+          width: 100px;
+          padding: 25px;
+          margin: 25px;
+          display: inline-block;
+          color: black;
+}
+#content{
+          height: 500px;
+}
+
+*{
+          padding: 0;
+          margin: 0;
+          color: white;
+}
+#navbar{
+          height: 60px;
+          background-color: black;
+}
+button{
+          background-color: #f0880f;
+}
+#logo{
+          color: #f0880f;
+          font-size: 25px;
+}
+a{
+          margin: 25px;
+          text-decoration: wavy;
+}
+footer{
+          background-color: black;
+          text-align: center;
+}
