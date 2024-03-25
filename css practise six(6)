@@ -1,11 +1,29 @@
-Q1/////
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Document</title>
+          <link rel="stylesheet" href="mystyle.css"></link>
+          
+</head>
+<body>
+      
 <ul class="navbar">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">about us</a></li>
                         <li><a href="#">contact us</a></li>
                         <li><a href="#">help</a></li>
  </ul>
-csss
+
+ <div class="outer">
+        <div class="inner"></div>
+ </div>
+       
+          
+</body>
+</html>
+cs***
 
 .navbar{
           background-color: aquamarine;
@@ -22,4 +40,19 @@ a{
 
 li{
           list-style-type: none;
+}
+.inner{
+          width: 100px;
+          height: 100px;
+          background-color: cadetblue;
+          /* align-self: self-start;  */
+}
+        
+.outer{
+          width: 400px;
+          height: 400px;
+          background-color: chartreuse;
+          display: flex;
+          justify-content: center;
+          align-items: center;
 }
