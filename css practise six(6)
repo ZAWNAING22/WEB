@@ -1,0 +1,25 @@
+Q1/////
+<ul class="navbar">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">contact us</a></li>
+                        <li><a href="#">help</a></li>
+ </ul>
+csss
+
+.navbar{
+          background-color: aquamarine;
+          display: flex;
+          justify-content: space-evenly;
+
+}
+a{
+          text-decoration: none;
+          background-color: black;
+          color: white;
+          
+}
+
+li{
+          list-style-type: none;
+}
